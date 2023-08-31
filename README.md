@@ -9,15 +9,15 @@ To run the project on your local machine, follow these steps:
 
 Clone this repository or download the ZIP file and extract it.
 
-Inside the project directory, open a terminal and run npm i.
+Inside the project directory, open a terminal and run ``` npm i ```.
 
 Open two additional terminals in your preferred code editor.
 
-In the second terminal, run npx hardhat node to start the local Ethereum node.
+In the second terminal, run ``` npx hardhat node ``` to start the local Ethereum node.
 
-In the third terminal, run npx hardhat run --network localhost scripts/deploy.js to deploy the smart contract to the local network.
+In the third terminal, run ``` npx hardhat run --network localhost scripts/deploy.js ``` to deploy the smart contract to the local network.
 
-Back in the first terminal, run npm run dev to launch the front-end application.
+Back in the first terminal, run ``` npm run dev ``` to launch the front-end application.
 
 After following these steps, the project will be running on your local host, typically at http://localhost:3000/ . Make sure you have MetaMask connected to the local network you set up in order to interact with the smart contract through the front-end interface.
 
